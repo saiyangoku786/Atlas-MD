@@ -35,7 +35,7 @@ require("./Processes/welcome.js");
 
 const { Collection, Function } = require("./lib");
 const { isUrl } = Function;
-const axios = require("axios");
+console.log(axios.isCancel('something'))
 const Func = require("./lib");
 const chalk = require("chalk");
 const { color } = require("./lib/color");
